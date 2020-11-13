@@ -1,9 +1,8 @@
 #title {
   height: 100px;
   width: 1000px;
-  border: 1px solid green;
 
-  margin: 30px auto;
+  margin: 20px auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -138,9 +137,13 @@ input[name*="p5s2"] {
   background-size: 100% 100%;
 }
 
+input.s:hover {
+  border: 3px solid red;
+}
 
-
-
+input.s:focus {
+  outline: none;
+}
 
 
 
@@ -168,7 +171,7 @@ input[name*="p5s2"] {
 .cmp-container {
   height: 100px;
   width: 1300px;
-  border: 1px solid green;
+  border: 4px solid green;
 
   margin: 0px auto;
   display: flex;
@@ -179,7 +182,7 @@ input[name*="p5s2"] {
 .spl-container {
   height: 270px;
   width: 1300px;
-  border: 1px solid green;
+  border: 4px solid green;
 
   margin: 10px auto;
   display: flex;
@@ -188,8 +191,6 @@ input[name*="p5s2"] {
 }
 
 .cmp {
-  background-color: red;
-  border: 1px solid yellow;
   height: 70px;
   width: 70px;
 
@@ -197,7 +198,6 @@ input[name*="p5s2"] {
 }
 
 .spl {
-  background-color: blue;
   height: 200px;
   width: 200px;
 
