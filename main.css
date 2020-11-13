@@ -14,7 +14,32 @@
   height: 200px;
   border: 3px solid black;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0px auto;
+}
+
+input[class*="start"] {
+  border: 1px solid red;
+  background-color: red;
+  border-radius: 50%;
+  font-size: 40px;
+  color: white;
+  width: 300px;
+  height: 100px;
+
+  margin: 0px auto;
+  border: 3px solid red;
+}
+
+input[class*="start"]:hover {
+  background-color: white;
+  color: black;
+}
+
+input[class*="start"]:focus {
+  outline: none;
 }
 
 .c {
@@ -30,7 +55,6 @@
 }
 
 .time {
-  border: 1px solid black;
   width: 105px;
   height: 60px;
   margin: 10px auto;
@@ -59,7 +83,7 @@ p {
   width: 1300px;
   border: 1px solid green;
 
-  margin: 20px auto;
+  margin: 10px auto;
   display: flex;
   justify-content: center;
   align-items: center;
