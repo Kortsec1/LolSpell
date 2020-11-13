@@ -42,6 +42,108 @@ input[class*="start"]:focus {
   outline: none;
 }
 
+
+
+
+
+
+
+input[name*="p1s1"] {
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px 5px;
+  background: url("./image/teleport.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+input[name*="p1s2"] {
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px 5px;
+  background: url("./image/flash.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+input[name*="p2s1"] {
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px 5px;
+  background: url("./image/smite.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+input[name*="p2s2"] {
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px 5px;
+  background: url("./image/flash.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+input[name*="p3s1"] {
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px 5px;
+  background: url("./image/ignite.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+input[name*="p3s2"] {
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px 5px;
+  background: url("./image/flash.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+input[name*="p4s1"] {
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px 5px;
+  background: url("./image/flash.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+input[name*="p4s2"] {
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px 5px;
+  background: url("./image/heal.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+input[name*="p5s1"] {
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px 5px;
+  background: url("./image/flash.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+input[name*="p5s2"] {
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px 5px;
+  background: url("./image/ignite.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+
+
+
+
+
+
 .c {
   width: 100%;
   height: 100%;
@@ -61,10 +163,6 @@ input[class*="start"]:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-p {
-  font-size: 40px;
 }
 
 .cmp-container {
